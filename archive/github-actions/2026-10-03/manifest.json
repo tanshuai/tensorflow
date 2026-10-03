@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "repository": "tanshuai/tensorflow",
+  "repository_id": 398218097,
+  "date": "2026-10-03",
+  "source_sha": "440628e5c3bfc4c355806048ac8ae3277ee697ad",
+  "entries": [
+    {
+      "original_path": ".github/workflows/pylint-presubmit.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/pylint-presubmit.yml",
+      "source_blob_sha": "3d76dd960ded2b6dd0ba147bf1222b5b47a28aed",
+      "sha256": "103294b0cc4efb7dbc20bff50649fcaab486d64ce2dc2285d8f1e1c394a1ab96",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from tensorflow/tensorflow",
+      "retirement_reason": "Live cross-fork compare proves zero custom commits ahead of upstream; zero retained runs; workflow purpose/destinations individually reviewed; owner-approved inherited automation retirement",
+      "config_finding_ids": [],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/update-nightly.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/update-nightly.yml",
+      "source_blob_sha": "0265ffbebe2ec0698f38e299c0229c3fd669b8c4",
+      "sha256": "391f1520f2ce3a08cdcee3f5b6bc3cc598320461c994b51aebed65f0285871c7",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from tensorflow/tensorflow",
+      "retirement_reason": "Live cross-fork compare proves zero custom commits ahead of upstream; zero retained runs; workflow purpose/destinations individually reviewed; owner-approved inherited automation retirement",
+      "config_finding_ids": [],
+      "secret_names": [],
+      "external_entrypoint_types": [
+        "workflow_dispatch"
+      ],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    }
+  ],
+  "code_and_dependency_snapshots": [],
+  "retained_dependency_references": [],
+  "upstream_preflight": {
+    "parent": "tensorflow/tensorflow",
+    "source_sha": "440628e5c3bfc4c355806048ac8ae3277ee697ad",
+    "ahead_by": 0,
+    "behind_by": 83493,
+    "status": "behind",
+    "retained_runs": 0,
+    "semantic_note": "Current entrypoints reviewed individually; only inherited upstream CI/tests/releases/doc generators, no custom fork commits or live production consumer identified. No repository Actions enabling or passive alert changes."
+  },
+  "caller_check": {
+    "current_all_accessible_workflows": 286,
+    "remaining_reusable_callers": [],
+    "external_dispatch_note": "Declared dispatch/manual entrypoints recorded; entire retired source preserved. No dispatch APIs were invoked."
+  },
+  "passive_security_alerts": "No alert setting changed. Archived version-update YAML is no longer active configuration.",
+  "rollback": "Reviewed source restoration plus explicit workflow enablement; for unsafe cross-repository publishers establish an updated producer/consumer contract and guarded destination before restoring."
+}
